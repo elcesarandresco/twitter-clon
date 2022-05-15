@@ -1,0 +1,101 @@
+:root {
+
+    --brand-color: #1d9bf0;
+    --gray-color: #cfd9de;
+    --text-color: rgb(83, 100, 113);
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+html {
+
+    font-size: 62.5%;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+body {
+
+    font-family: Roboto, sans-serif;
+
+}
+
+.button {
+
+    border: 0.1rem solid var(--gray-color);
+    height: 4rem;
+    width: 30rem;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button--white__blue {
+
+    background-color: white;
+    color: var(--brand-color);
+
+}
+
+.button--blue__white {
+
+    background-color: var(--brand-color);
+    color: white;
+
+}
+
+.button--white {
+
+    background-color: white;
+
+}
+
+.twitter-white {
+
+    color: white;
+
+}
+
+.twitter-blue {
+
+    color: var(--brand-color)
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: 900;
+    transform: scale(1, 0.7);
+
+}
+
+
+.overflow-ellipsis {
+
+    text-overflow: ellipsis;
+
+}

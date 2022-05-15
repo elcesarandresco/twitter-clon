@@ -1,0 +1,185 @@
+.header {
+  width: 100%;
+  padding: 4rem 4rem 0rem 0rem;
+  margin-bottom: 5rem;
+}
+
+.header span i {
+  font-size: 4.5rem;
+}
+
+.hero {
+  min-width: 375px;
+}
+
+.hero .hero__box {
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .hero__box .hero__box__title {
+  height: auto;
+}
+
+.hero .hero__box .hero__box__title h1 {
+  font-size: 9rem;
+  line-height: 12rem;
+}
+
+.hero .hero__box h2 {
+  font-size: 4rem;
+  margin-bottom: 1.3rem;
+}
+
+.hero .hero__box .hero__box__socialregister {
+  width: 30rem;
+}
+
+.hero .hero__box .hero__box__socialregister .button {
+  margin-bottom: 1.4rem;
+}
+
+.hero .hero__box .hero__box__socialregister .hero__box__divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero__box .hero__box__socialregister .hero__box__divider .divider__box--letter {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.hero .hero__box .hero__box__socialregister .hero__box__divider .divider__box--line {
+  height: 1px;
+  background-color: var(--gray-color);
+  opacity: 0.6;
+  width: 150px;
+}
+
+.hero .hero__box .hero__box__socialregister .hero__box__numregister {
+  width: 300px;
+  margin-bottom: 5rem;
+}
+
+.hero .hero__box .hero__box__socialregister .hero__box__numregister p {
+  font-size: 1.1rem;
+}
+
+.hero .hero__box .hero__box__accountlogin h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  margin-bottom: 1.4rem;
+}
+
+.hero .hero__background {
+  width: 100%;
+  height: 23rem;
+  background-color: var(--brand-color);
+  background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_850x623.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero__background span i {
+  font-size: 15rem;
+}
+
+.hero p {
+  color: var(--text-color);
+}
+
+.hero p a {
+  color: var(--brand-color);
+}
+
+@media screen and (min-width: 1024px) and (min-height: 800px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    height: 95vh;
+  }
+  .hero .hero__box {
+    height: 100%;
+    width: 45%;
+  }
+  .hero .hero__background {
+    width: 55%;
+    background-size: auto;
+    height: 100%;
+  }
+  .hero .hero__background .twitter-white {
+    font-size: 40rem;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+  font-size: 1.3rem;
+  min-width: 375px;
+}
+
+footer ul {
+  display: inherit;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul li {
+  color: var(--text-color);
+  padding: 0.5rem 0.9rem;
+}
+
+footer ul li a {
+  color: var(--text-color);
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=index.css.map */
