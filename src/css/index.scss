@@ -2,13 +2,13 @@
 
     width: 100%;
     padding: 4rem 4rem 0rem 0rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     
     span{
 
         i {
     
-            font-size: 4.5rem;
+            font-size: 6.5rem;
     
         }
     }
@@ -145,6 +145,27 @@
         a {
 
             color: var(--brand-color);
+
+        }
+
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .hero__box__title {
+            h1 {
+                font-size: 6rem!important;
+                line-height: 8rem!important;
+            }
+        }
+
+        .hero__box {
+
+            h2 {
+
+                font-size: 2rem!important;
+    
+            }
 
         }
 
